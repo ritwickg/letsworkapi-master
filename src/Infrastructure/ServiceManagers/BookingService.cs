@@ -226,19 +226,6 @@ namespace LetsWork.Infrastructure.ServiceManagers
         {
             return await _bookingRepository.GetByIdAsync(id);
         }
-        public void GetGdsBasedOnId(Guid id)
-        {
-            int Gdstype = DbCall based on Id;
-
-            switch(Gdstype)
-            {
-                case 1:
-                    _bookingRepository.dfghj;
-                    break;
-                case 2:
-                    _referralCodeRepository.dfghj;
-                    break;
-            }
-        }
+       
     }
 }

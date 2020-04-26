@@ -18,7 +18,5 @@ namespace LetsWork.Domain.Interfaces.ServiceManagers
         Task UpdateBookingStatusAsync();
         Task UpdateBookingAsync(Booking UpdatedBooking, string BookingTimeZoneId);
         Task<Booking> GetBookingIdAsync(Guid id);
-
-        void GetGdsBasedOnId(Guid id);
     }
 }
